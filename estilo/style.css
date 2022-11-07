@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+/* cores teste: #5B7553
+                #8C86AA 
+                #5DA9E9
+*/
+:root{
+    --cor0: #5B7553
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #9ee493e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #5DA9E9 ;
+    text-align: center;
+    color: black;
+    min-height: 150px;
+    padding-top: 10px;
+}
+
+header > h1 {
+    font-family: 'android';
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+nav{
+    background-color: #054E6E;
+    padding: 4px;
+    box-shadow: 1px 1px black;
+}
+
+nav > a{
+    
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: #06aa3d;  
+}
+
+main{
+    background-color: #ffffff;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+main h1{
+    font-family: 'android';
+    text-align: center;
+    color:#169750  ;
+    margin: 10px 0px;
+    
+}
+
+main h2{
+    font-family: 'android';
+    text-indent: 30px;
+}
+
+main p {
+    text-align: justify;
+    margin: 20px 0px;
+    text-indent: 20px;
+    line-height: 1.5em;
+    
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    display: block;
+    width: 350px;
+    margin: auto;
+}
+main a{
+    color: #054E6E;
+    font-weight: bold;
+}
+div.video{
+    background-color: #5DA9E9;
+    margin-bottom: 30px;
+    margin: 0px -10px;
+    padding: 20px;
+    box-shadow: 1px 1px black;
+    position: relative;
+    padding-bottom: 55%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+aside{
+    background-color: #1697508a;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    
+    
+}
+footer{
+    background-color: #054E6E;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+   
+}
